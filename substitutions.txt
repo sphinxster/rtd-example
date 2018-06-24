@@ -1,15 +1,15 @@
 .. |br|     raw:: html        .. force a line break in HTML output (blank lines needed here)
 
    <br />
-.. |PN| replace:: Documentation Template
+.. |PN| replace:: Read-The-Docs Example
 
-.. |LPN| replace:: OTC-TCS Documentation Template
+.. |LPN| replace:: Read-The-Docs Example Template
 
-.. _project repo: https://github.intel.com/otc-tcs/
+.. _project repo: https://github.com/sphinxus
 
-.. _documentation repo: https://github.intel.com/otc-tcs/documentation-template
+.. _documentation repo: https://github.com/sphinxus/rtd-example
 
-.. _documentation site: https://github.intel.com/pages/otc-tcs
+.. _documentation site: https://github.com/sphinxus
 
 .. These are replacement strings for non-ASCII characters used within the project
    using the same name as the html entity names (e.g., &copy;) for that character
