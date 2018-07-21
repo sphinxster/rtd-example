@@ -8,6 +8,10 @@ Welcome to the |LPN| (|PN|) Project (version |version|) documentation.
 To use this template to begin your own documentation project start with
 the :ref:`guide`.
 
+|check|
+|check|
+|check|
+
 For information about the changes and additions for releases, please
 consult the published :ref:`release_notes` documentation.
 
