@@ -32,11 +32,13 @@ sys.path.insert(0, os.path.abspath('.'))
 # ones.
 extensions = ['breathe', 'sphinx.ext.graphviz', 'sphinxcontrib.plantuml']
 
-graphviz_output_format='png'
-graphviz_dot_args=[
-   '-Nfontname="verdana"',
-   '-Gfontname="verdana"',
-   '-Efontname="verdana"']
+# 12.05.28 TODO: Uncomment below when you discover what's preventing successful build. 
+
+# graphviz_output_format='png'
+# graphviz_dot_args=[
+#    '-Nfontname="verdana"',
+#    '-Gfontname="verdana"',
+#    '-Efontname="verdana"']
 
 plantuml = 'java -jar ' + os.path.join(os.path.abspath('.'), 'scripts/plantuml.jar')
 plantuml_output_format = 'png'
