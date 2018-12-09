@@ -1,0 +1,13 @@
+.. _bundles:
+
+Available bundles
+#################
+
+This document provides a current list of `available bundles`_. 
+
+Bundle list
+===========
+
+.. raw:: html
+   :file: bundles.html.txt
+

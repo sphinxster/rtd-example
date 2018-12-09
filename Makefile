@@ -17,6 +17,7 @@ BUILDDIR      = _build
 DOC_TAG      ?= development
 RELEASE      ?= latest
 PUBLISHDIR    = ../website/docs
+SCRIPTDIR			= scripts/_python
 
 # Put it first so that "make" without argument is like "make help".
 help:
@@ -36,6 +37,11 @@ html:
 	$(Q)$(SPHINXBUILD) -t $(DOC_TAG) -b html -d $(BUILDDIR)/doctrees $(SOURCEDIR) $(BUILDDIR)/html $(SPHINXOPTS) $(O)
 
 # Remove generated content (Sphinx and doxygen)
+
+html-s:
+	python bundle_lister.py $(SCRIPTDIR)
+	rm -rf $(SCRIPTDIR)/cloned_repo/*	 
+	cp -r $(SCRIPTDIR)/bundles.html.txt $(PUBLISHDIR)/howtos/tech/
 
 clean:
 	rm -fr $(BUILDDIR)
