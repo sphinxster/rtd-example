@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import os
 import re
 import urllib
@@ -91,7 +93,7 @@ def bundler():
     template.globals['now'] = datetime.utcnow
 
     output = template.render(data=sortedData, now=datetime.utcnow())
-    with open('bundles.html.txt', 'w') as file:
+    with open('bundles.html', 'w') as file:
         file.write(output)   
           
 bundler()
