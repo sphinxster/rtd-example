@@ -148,8 +148,9 @@ html_context = {
 #
 # html_theme_options = {}
 
-html_logo = 'images/logo_white_200w.png'
-html_favicon = 'images/favicon-16x16.png'
+# html_logo = 'images/logo_white_200w.png'
+# commented out the above to satisfy Makefile build requirements
+html_favicon = 'images/favicon-16x16.ico'
 
 numfig = True
 #numfig_secnum_depth = (2)

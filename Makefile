@@ -17,13 +17,14 @@ BUILDDIR      = _build
 DOC_TAG      ?= development
 RELEASE      ?= latest
 PUBLISHDIR    = ../website/docs
-SCRIPTDIR			= scripts/_python
+SCRIPTDIR			= /scripts/_python
 
 # Put it first so that "make" without argument is like "make help".
 help:
 	@$(SPHINXBUILD) -M help "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 	@echo ""
 	@echo "make publish"
+	@echo "  	html-s       to run Python script."
 	@echo "   publish generated html to thesofproject.github.io site:"
 	@echo "   specify RELEASE=name to publish as a tagged release version"
 	@echo "   and placed in a version subfolder.  Requires repo merge permission."
@@ -41,7 +42,7 @@ html:
 html-s:
 	python bundle_lister.py $(SCRIPTDIR)
 	rm -rf $(SCRIPTDIR)/cloned_repo/*	 
-	cp -r $(SCRIPTDIR)/bundles.html.txt $(PUBLISHDIR)/howtos/tech/
+	cp -r $(SCRIPTDIR)/bundles.html $(PUBLISHDIR)/howtos/tech/
 
 clean:
 	rm -fr $(BUILDDIR)
