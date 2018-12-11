@@ -30,7 +30,7 @@ sys.path.insert(0, os.path.abspath('.'))
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = ['breathe', 'sphinx.ext.graphviz', 'sphinxcontrib.plantuml']
+extensions = ['breathe', 'sphinxcontrib.plantuml']
 
 # 12.05.28 TODO: Uncomment below when you discover what's preventing successful build. 
 
@@ -148,8 +148,8 @@ html_context = {
 #
 # html_theme_options = {}
 
-html_logo = 'images/logo_white_200w.png'
-html_favicon = 'images/favicon-16x16.png'
+#html_logo = 'images/logo_white_200w.png'
+#html_favicon = 'images/favicon-16x16.png'
 
 numfig = True
 #numfig_secnum_depth = (2)
