@@ -38,7 +38,7 @@ html:
 # Remove generated content (Sphinx and doxygen)
 
 py:
-	make -C $(SCRIPTDIR) py 
+	$(MAKE) -C $(SCRIPTDIR) py 
 
 
 clean:
