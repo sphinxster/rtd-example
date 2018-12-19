@@ -16,7 +16,7 @@ BUILDDIR      = _build
 
 DOC_TAG      ?= development
 RELEASE      ?= latest
-PUBLISHDIR    = ../website/rtd-pilot
+PUBLISHDIR    = ../website/docs
 SCRIPTDIR     = scripts/_python
 
 # Put it first so that "make" without argument is like "make help".
