@@ -1,9 +1,9 @@
 .. |br|     raw:: html        .. force a line break in HTML output (blank lines needed here)
 
    <br />
-.. |PN| replace:: Read-The-Docs Example
+.. |PN| replace:: Scatola Verde
 
-.. |LPN| replace:: Read-The-Docs Example Template
+.. |LPN| replace:: Scatola Verde
 
 .. _project repo: https://github.com/sphinxus
 

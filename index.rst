@@ -3,19 +3,7 @@
 |LPN| Project documentation
 ###########################
 
-Welcome to the |LPN| (|PN|) Project (version |version|) documentation.
-
-To use this template to begin your own documentation project start with
-the :ref:`guide`.
-
-#|check|
-
-For information about the changes and additions for releases, please
-consult the published :ref:`release_notes` documentation.
-
-Source code for the |PN| Project is maintained in the
-`project repo`_, and is provided under the BSD 3-clause
-license.
+This is a Read-the-Docs sandbox for |LPN|.
 
 .. _BSD 3-clause license:
    https://github.com/thesofproject/sof/blob/master/LICENCE
